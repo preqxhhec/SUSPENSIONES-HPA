@@ -1,218 +1,186 @@
-body{
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-background-color: #ffff;
-margin: 0;
-background-image: url('images/logo-hospital-puerto-aysen.png');
-background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
-            background-position: center; /* Centra la imagen */
-            background-repeat: no-repeat; /* Evita que la imagen se repita */
-           
-            z-index: -1; /* Coloca la imagen detrás del contenido */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff; /* Corregido de #ffff a #ffffff */
+  margin: 0;
+  background-image: url('logo-hospital-puerto-aysen.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; /* Imagen detrás del contenido */
 }
 
-
-
-.img2{
-    width: 192px;
-    display: inline-block;
-
+.img2 {
+  width: 192px;
+  display: inline-block;
+  vertical-align: middle; /* Mantenido para alineación con H1 */
 }
 
-H1{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-style: italic;
-    width: auto;
-    text-align: center;
-    margin-left: 70px;
+h1 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  margin-left: 70px;
 }
 
-h2{
-    font-family: sans-serif;
-    font-size: 15px;
-    font-style: italic;
-    width: auto;
-    text-align: center;
+h2 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
 }
 
-.form{
-
-    width: 700px;
-    padding-top: 0;
-    padding: 10px;
-    border: 1px solid #333;
-    background-color: rgb(247, 244, 244);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    border-radius: 8px;
- 
-
+.form {
+  width: 700px;
+  padding: 10px;
+  border: 1px solid #333;
+  background-color: #f7f4f4; /* Simplificado rgb(247, 244, 244) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  display: none; /* Mantenido según tu código */
 }
 
-.divFecha{
-    padding-bottom: 10px;
-    padding-right: 21px;
-    text-align: end;
+.divFecha {
+  padding-bottom: 10px;
+  padding-right: 21px;
+  text-align: end;
 }
 
-.selectEsp{
-    padding-left: 20px;
+.selectEsp {
+  padding-left: 20px;
 }
 
-.divNombreRut{
-    padding-bottom: 10px;
-    
+.divNombreRut {
+  padding-bottom: 10px;
 }
 
-.divNombreRut{
-    padding-bottom: 10px;
-}
-.nombre{
-    width: 42%;
+.nombre {
+  width: 42%;
 }
 
-.divDx{
-    padding-bottom: 10px;
+.divDx {
+  padding-bottom: 10px;
 }
 
-.dx{
-    width: 80%;
+.dx {
+  width: 80%;
 }
 
-.divCx{
-    padding-bottom: 10px;
+.divCx {
+  padding-bottom: 10px;
 }
 
-.cx{
-    width: 79%;
+.cx {
+  width: 79%;
 }
 
-.actividad{
-    width: 74.5%;
-    margin-top: 10px;
+.actividad {
+  width: 74.5%;
+  margin-top: 10px;
 }
 
-
-
-
-
-
-.materiales{
-    display: inline-block;
+.materiales {
+  display: inline-block;
 }
 
-.ttmateriales{
-    width: 96%;
-    max-height: 125px;
-    overflow-y: hidden;
-    resize: none;
+.ttmateriales {
+  width: 96%;
+  max-height: 125px;
+  overflow-y: hidden;
+  resize: none;
 }
 
-
-
-
-
-
-.img{
-
-    width: 300px;
-    margin-right: 50px;
-   
-
+.img {
+  width: 300px;
+  margin-right: 50px;
 }
 
-.select{
-display: inline-block;
-padding-bottom: 15px;
-
+.select {
+  display: inline-block;
+  padding-bottom: 15px;
 }
 
-
-.BTN, .botonpwd{
-    width: auto;
-    margin: auto;
-    margin-top: 10px;
-    display: block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    }
-
-    .BTN:hover{
-        background-color: #005600;
-        }
-
-    .botonpwd:hover{
-            background-color: #005600;
-            }
-
-        
-    .botonpwd{
-        display: inline-block;
-    }
-
-.acceso{
-    width: auto;
-    padding: 10px;
-    border: 1px solid #333;
-    background-color: #f2f4f5;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    border-radius: 8px; 
+.BTN, .BTNCERRAR, .boton {
+  width: auto;
+  margin: 10px 0 0 0; /* Simplificado: solo margen superior */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
 }
-        .form{
-          
-                display: none;
-            }
-            
-        
-.H1, .img2{
-    display: inline-block; 
-    vertical-align: middle;
+
+.BTN {
+  background-color: #4CAF50;
+}
+
+.BTN:hover {
+  background-color: #005600;
+}
+
+.BTNCERRAR {
+  background-color: #dc3545; /* Color diferente para diferenciar */
+}
+
+.BTNCERRAR:hover {
+  background-color: #a12838;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #2e98f0;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #f19934;
+}
+
+.acceso {
+  width: auto;
+  padding: 10px;
+  border: 1px solid #333;
+  background-color: #f2f4f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+}
+
+.H1 {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .fieldset {
-  
-    border: solid black 1.5px;
-    margin-top: 20px;
+  border: 1.5px solid black;
+  margin-top: 20px;
 }
 
-.legend{
-    font-size: 14px;
-    font-weight: bold;
-    font-style: italic black;
+.legend {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  color: black; /* Corregido de "italic black" */
 }
 
-.fecha{
-    text-align: center;
+.fecha {
+  text-align: center;
 }
 
-
-
-
-
-.causal{
-    width: 88%;
-    padding: 1.5px;
-    
+.causal, .subcausal {
+  width: 88%;
+  padding: 1.5px;
 }
 
-.subcausal{
-    width: 88%;
-    margin-top: 10px ;
-    padding: 1.5px;
-    
+.subcausal {
+  margin-top: 10px;
 }
 
-
-
-
-/* Estilos para el modal */
 .modal2 {
   position: fixed;
   top: 0;
@@ -227,10 +195,10 @@ padding-bottom: 15px;
 }
 
 .modal-content2 {
- background-color: #fff;
+  background-color: #fff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   font-size: medium;
 }
 
@@ -248,23 +216,13 @@ padding-bottom: 15px;
   cursor: pointer;
 }
 
-
-.oculto{
-    display: none;
+.oculto {
+  display: none;
 }
 
-
-.boton {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #2e98f0;
-    color: white;
-    text-decoration: none;
-    text-align: end;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  .boton:hover {
-    background-color: #f19934;
-  }
+.DIVBOTONES {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; /* Espacio reducido entre botones */
+}
