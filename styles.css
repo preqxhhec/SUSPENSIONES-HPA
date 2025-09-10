@@ -104,7 +104,7 @@ h2 {
   padding-bottom: 15px;
 }
 
-.BTN, .BTNCERRAR, .boton {
+.BTN, .BTNCERRAR, .boton, .botonpwd {
   width: auto;
   margin: 10px 0 0 0; /* Simplificado: solo margen superior */
   padding: 10px 20px;
@@ -114,6 +114,16 @@ h2 {
   text-align: center;
   color: white;
 }
+
+.botonpwd {
+  background-color: #4CAF50;
+}
+
+.botonpwd:hover {
+  background-color: #005600;
+}
+
+
 
 .BTN {
   background-color: #4CAF50;
