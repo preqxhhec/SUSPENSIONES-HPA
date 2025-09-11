@@ -251,5 +251,6 @@ inputFecha.addEventListener('input', (e) => {
 });
 
 function irAlInicio() {
-            window.location.href = "http://127.0.0.1:5500/index.html"; // Redirige a la página inicial (ajusta la URL según sea necesario)
+            window.location.href = "https://preqxhhec.github.io/SUSPENSIONES-HPA/"; // Redirige a la página inicial (ajusta la URL según sea necesario)
+
         }
