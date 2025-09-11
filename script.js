@@ -4,7 +4,7 @@
   function verificarContraseña() {
     var password = document.getElementById("password").value;
     var imagen = document.querySelector('.img');
-    if (password === "") {
+    if (password === "Preqxhpa") {
         document.getElementById("form").style.display = "block";
         document.getElementById("acceso").style.display = "none";
         imagen.style.display = 'none';
@@ -254,3 +254,4 @@ function irAlInicio() {
             window.location.href = "https://preqxhhec.github.io/SUSPENSIONES-HPA/"; // Redirige a la página inicial (ajusta la URL según sea necesario)
 
         }
+
