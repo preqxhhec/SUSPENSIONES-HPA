@@ -6,7 +6,7 @@ body {
   background-color: #ffffff; /* Corregido de #ffff a #ffffff */
   margin: 0;
   background-image: url('logo-hospital-puerto-aysen.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1; /* Imagen detrás del contenido */
@@ -236,5 +236,6 @@ h2 {
   align-items: center;
   gap: 5px; /* Espacio reducido entre botones */
 }
+
 
 
